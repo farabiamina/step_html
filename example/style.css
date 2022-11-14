@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-image: url(https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2022-05/f56990.jpg?itok=K9X5VFWf);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(6, 6, 28);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: underline;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 80px;
+    color: white;
+}
+
+button {
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo img {
+    width: 90px;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-text {
+    text-align: center;
+    margin-bottom: 30px;
+    color:rgb(6, 6, 28);
+}
+
+.article {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    width: 30%;
+    height: 240px;
+    /* border: 1px solid grey; */
+    box-shadow: 0 0 5px grey;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+footer{
+    margin-top: 50px;
+    background-color:rgb(6, 6, 28);
+    color: antiquewhite;
+}
+
+.footer-inner{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.footer-inner h2{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.footer-inner p{
+    padding-bottom: 15px;
+}
+
+.transfer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+    gap: 40px;
+    background-color: rgb(129, 176, 215);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.transfer img {
+    width: 40%;
+}
+
+.cards-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    gap: 40px;
+}
+
+.card-column {
+    display: flex;
+    border: 1px solid grey;
+    gap: 20px;
+    align-items: center;
+}
+
+.cards-column img {
+    width: 20%;
+}
+
+.cards-column button {
+    margin: 20px;
+}
+
+
+
