@@ -1,0 +1,58 @@
+#first {
+    color: fuchsia;
+}
+
+.card-text {
+    color: rgb(0, 255, 34);
+}
+
+.card-text {
+    color: rgb(247, 43, 43);
+}
+
+.bold {
+    color:rgb(206, 247, 43);
+}
+
+
+body {
+    background-color: rgb(245, 243, 158);
+    color: purple;
+}
+
+
+
+#menu {
+    color: green;
+}
+
+/* Написать селектор для дивов с классом "card-text" */
+a#card-text {
+    color:rgb(245, 243, 158);
+}
+
+tag.class-name {
+
+}
+
+/* Написать селектор для дивов с классом "card-text", которые находятся внутри дива с id "card" */
+/* пробел в css это наследование родитель -> ребенок в любом поколении */
+div#card div.card-text {
+
+}
+
+/* Написать селектор для дивов с классом "card-text", которые находятся внутри дива с id "card" первой вложенности*/
+/* пробел в css это наследование родитель -> ребенок в любом поколении */
+
+div#card>div.card-text {
+
+}
+
+a, div#card>div.card-text {
+    text-decoration: none;
+}
+
+.first + .second {
+    
+}
+
